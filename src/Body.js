@@ -38,6 +38,8 @@ export default function Body() {
       <h2>Welcome to ShopZ</h2>
       <p>Your one-stop shop for all things fashion.</p>
       <div className="products-container">
+        {Products.length === 0 && <p>No products loaded</p>}
+        
         {Products.map((product)=>(
           <div className="product-cart" key={product.id}>
             <img src={product.image} alt={product.title} className="product-image" />

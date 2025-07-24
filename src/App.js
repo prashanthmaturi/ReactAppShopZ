@@ -10,7 +10,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 export default function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/ReactAppShopZ">
       <Header />
       <Routes className="routing-components">
               <Route path="/" element={<Body />} />
