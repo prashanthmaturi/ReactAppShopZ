@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ReactAppShopZ/static/css/main.ac86f5e0.css",
+    "main.js": "/ReactAppShopZ/static/js/main.1988e1d4.js",
+    "index.html": "/ReactAppShopZ/index.html",
+    "main.ac86f5e0.css.map": "/ReactAppShopZ/static/css/main.ac86f5e0.css.map",
+    "main.1988e1d4.js.map": "/ReactAppShopZ/static/js/main.1988e1d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac86f5e0.css",
+    "static/js/main.1988e1d4.js"
+  ]
+}
