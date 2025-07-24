@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+#app-btn{
+    margin-top: 7px;
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    background-color: rgb(202, 123, 70);
+    color: white;
+    font-weight:400;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#app-btn:hover{
+    background-color: white;
+    border: 1.25px solid rgb(202, 123, 70);
+    transition: background-color 0.5s;
+    color:#b1abab;
+}
+.App-header {
+    /* background-color: rgb(114, 69, 38); */
+    background: linear-gradient(to right, #663623, #D2691E);
+    color: rgb(255, 255, 255);
+    height:70px;
+    padding: 10px;
+    text-align: center;
+}
+.App-header > .logo{
+    width: 50px;
+    height: 50px;
+    font-family: 'Times New Roman';
+    border-radius: 50%;
+}
+
+.App-Navigation{
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.App-Navigation > .nav-link {
+    margin-left: 20px;
+    color:white;
+    text-decoration: none;
+    font: weight 300px;
+}
+.App-body{
+    padding: 20px;
+    background-color: #ffffff;
+    color:rgb(0, 0, 0);
+}
+.products-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+.product-cart{
+    height: 320px;
+    width: 170px;
+    padding: 10px;
+    border: 1.25px solid rgb(228, 213, 203);
+    border-radius: 5px 5px 20px 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-cart:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+.product-cart > img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.product-cart > .product-rating{
+    font-size: 14px;
+    color: #b1abab;
+}
+
+.App-footer{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(114, 69, 38);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form > .login-form{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 30px ;
+
+    color:black;
+
+    border: 1.25px solid rgb(228, 213, 203);
+    border-radius: 5px 5px 20px 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.form >.signup-form{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin-top: 30px ;
+
+    color:black;
+
+    border: 1.25px solid rgb(228, 213, 203);
+    border-radius: 5px 5px 20px 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
