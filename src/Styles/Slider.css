@@ -1,0 +1,44 @@
+.slideshowComponent{
+    margin-top: 25px;
+    margin-bottom: 100px;
+
+}
+.custom-swiper .swiper-pagination{
+  background-color:transparent;
+}
+.custom-swiper .swiper-pagination-bullet{
+    background-color:rgb(19, 55, 71);
+    width:10px;
+    height:10px;
+}
+.custom-swiper .swiper-button-next,
+.custom-swiper .swiper-button-prev {
+    color:rgb(19, 55, 71);
+    background-color: transparent;
+    
+}
+.slides-container{
+    display: flex;
+    gap:10px;
+}
+.description{
+    width:300px;
+    gap:10px;
+}
+.slideimg{
+width:280px;
+height:350px;
+border: 2px solid balck;
+border-radius: 4px;
+}
+.slideimg:hover{
+    transform: scale(1.03);
+    transition: ease-in-out 0.3s;
+
+}
+.description .title{
+    font-weight:bolder;
+}
+.description .desc{
+    opacity: 0.5;
+}

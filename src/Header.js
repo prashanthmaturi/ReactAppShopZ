@@ -16,8 +16,13 @@ function AppNav(){
     <div>
       <nav className='App-Navigation'>
         <Link to="/" className='nav-link'>Home</Link><span>&nbsp;|&nbsp;</span>
-        <Link to="/login" className='nav-link'>Login</Link><span>&nbsp;|&nbsp;</span>
-        <Link to="/signup" className='nav-link'>Sign Up</Link>
+        <Link to="/products" className='nav-link'>Products</Link><span>&nbsp;|&nbsp;</span>
+        <Link to="/men" className='nav-link'>Men's Clothing</Link><span>&nbsp;|&nbsp;</span>
+        <Link to="/women" className='nav-link'>Women's Clothing</Link><span>&nbsp;|&nbsp;</span>
+        <Link to="/jewelery" className='nav-link'>Jewelery</Link><span>&nbsp;|&nbsp;</span>
+        <Link to="/electronics" className='nav-link'>Electronics</Link><span>&nbsp;|&nbsp;</span>
+        <Link to="/About" className='nav-link'>About</Link><span>&nbsp;|&nbsp;</span>
+        <Link to="/Contact" className='nav-link'>Contact</Link>
       </nav>
     </div>
   );
